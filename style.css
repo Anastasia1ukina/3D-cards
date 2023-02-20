@@ -1,0 +1,32 @@
+body {
+    background-color: #f8a5c2;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.card-item {
+    background-color: #ffffff;
+    width: 300px;
+    height: 500px;
+    transition: transform 0.2s;
+    border: 5px solid #000000;
+}
+
+.title h1 {
+    margin: 60px auto;
+    width: 300px;
+}
